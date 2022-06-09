@@ -1,0 +1,31 @@
+<html lang="en">
+    <head>
+        <title>Kwitter Message Page</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="kwitter_page.js"></script>
+    </head>
+
+    <body style="background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX2613009.jpg');">
+         <button id="logout" onclick="logout()" class="text-danger">Logout</button>
+<center>
+    <header>
+    <h1 class="header">Kwitter</h1>
+    <img id="camera" src="https://png.pngtree.com/png-vector/20190420/ourmid/pngtree-vector-camera-icon-png-image_964594.jpg">
+    </header>
+
+    <div id="output"></div>
+    <input id="msg" class="form-control" type="text" placeholder="Enter Your Message"> 
+    <button id="send" onclick="send()"class="btn-success">Send</button>
+    
+ </center>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+body{
+    background-size: cover;
+    color: white;
+    border: 30px solid black;
+}
+#logo{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+#login_button{
+    background-color:black;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.login_div{
+    background-color: black;
+    width: 70%;
+    border-radius: 30px;
+    margin-left: 500px;
+    color: white;
+    padding: 20px;
+    font-family: cursive;
+}
+
+#camera{
+    border-radius:50px;
+    width: 100px;
+    height: 100px;
+}
+
+#header{
+    font-family: cursive;
+    font-size: 50px;
+}
+
+#logout{
+    font-size: 30px;
+    margin-left: 800px;
+    border: 2px solid red;
+    border-radius: 30px;
+    font-family: cursive;
+}
+
+#msg{
+    margin-top: 400px;
+    width: 1000px;
+
+}
+
+h1{
+    color: black;
+    font-family: cursive;
+}
